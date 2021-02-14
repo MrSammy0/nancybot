@@ -110,11 +110,11 @@ def list_chatbot_chats(bot: Bot, update: Update):
 __mod_name__ = "Chat Bot"
 
 __help__ = """
-Powered by CoffeeHouse (https://coffeehouse.intellivoid.net/) from @Intellivoid
- - /addchat : Enables Chatbot mode in the chat.
- - /rmchat  : Disables Chatbot mode in the chat.
+
+ - `/addchat` : Enables Chatbot mode in the chat.
+ - `/rmchat`  : Disables Chatbot mode in the chat.
  
- If having problems to enable contact @KoraSupport
+ If having problems to enable contact @NancySupports
 """
                     
                     
