@@ -22,20 +22,20 @@ from tg_bot.modules.helper_funcs.alternate import typing_action
 
 PM_START_TEXT = """
 Hi {}, my name is {}
-I am a group management bot.	
-Build by weebs for weebs, I specialize in managing groups.	
-You can find my list of available commands with :	
-👉 /help.
+if you have any questions on how to use me click click help button!	
+i am here to make your group management fun and easy!
+any issues or need help related to me join our Group @NancySupports!
+
 """
 
 
-BOT_IMG = "https://telegra.ph/file/2fbf54ecf569496431507.jpg"
+BOT_IMG = "https://telegra.ph/file/5e4db3b2ce13c23510a37.jpg"
 
 
 
 
 HELP_STRINGS = """
-*Helpful Commands :* [.](https://telegra.ph/file/2fbf54ecf569496431507.jpg)
+**Helpful Commands**
 ✧ /start: Starts me! You've probably already used this.
 ✧ /help: Sends this message; I'll tell you more about myself!
 ✧ /settings: 
@@ -150,21 +150,21 @@ def start(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add kora to your group",
+                            text="Add To Group 👥",
                             url="t.me/{}?startgroup=true".format(context.bot.username))
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support Chat ",
-                            url="https://t.me/KoraSupport"),
+                            text="Updates 💫 ",
+                            url="https://t.me/NancyUpdate"),
                         InlineKeyboardButton(
-                            text="Updates ",
-                            url="https://t.me/koraupdates")
+                            text="Support Group 🌀 ",
+                            url="https://t.me/NancySupports")
                     ],
                     [
                         InlineKeyboardButton(
-                            text="help",
-                            url="https://t.me/koragroup_bot?start=help")
+                            text="Help ❓",
+                            url="https://t.me/NancyProBot?start=help")
                     ]]))
        
 #@run_async
@@ -498,7 +498,7 @@ def get_settings(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Settings",
+                                text="Settings ⚙️",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
